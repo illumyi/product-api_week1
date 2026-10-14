@@ -13,15 +13,8 @@ public class Product {
         this.price = price;
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public double getPrice() {
-        return price;
-    }
+    // getters - allow for access of private fields within class, from outside of it
+    public Long getId() {  return id; }
+    public String getName() { return name; }
+    public double getPrice() { return price; }
 }
